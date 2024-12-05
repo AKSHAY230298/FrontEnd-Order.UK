@@ -1,0 +1,257 @@
+.productMainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.productNavbar {
+  height: 20vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: auto;
+}
+
+.productNav1 {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid #0000001A; */
+  background: #fafafa;
+  border-bottom-left-radius: 0.85rem;
+  border-bottom-right-radius: 0.85rem;
+}
+
+.productNav2 {
+  height: 60%;
+  /* border: 1px solid yellow; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.PrdtBodyImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  margin: auto;
+}
+
+.prdtBanner {
+  width: 100%;
+}
+
+.McOffer {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15rem;
+}
+
+.McOfferL {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.McOfferR > img {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 1rem;
+}
+
+.McOfferR > input {
+  width: 20rem;
+  height: 4rem;
+  padding-left: 4rem;
+  font-size: 1.2rem;
+}
+
+.McOfferR {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.foodMenuBar {
+  width: 100%;
+  background-color: #fc8a06;
+}
+
+.McItems {
+  width: 90%;
+  margin: auto;
+}
+
+.burgers {
+  width: 90vw;
+  margin: auto;
+} 
+
+.fries {
+  width: 90vw;
+  margin: auto;
+}
+
+ .coldDrinks {
+  width: 90vw;
+ margin: auto;
+}
+
+
+.bannerANDcards{
+width: 90vw;
+margin: auto;
+display: flex;
+justify-content: space-between;
+/* align-items: center; */
+
+/* flex-direction: column; */
+
+}
+
+.Left_Product_Div{
+  /* display: flex; */
+  /* gap: 3rem; */
+width: 65%;
+/* flex-direction: column; */
+}
+
+.cartBarDiv{
+  width: 30%;
+  /* margin: auto; */
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+
+.infoPage {
+  width: 90vw;
+  margin: auto;
+}
+
+.infoPage > img {
+  width: 100%;
+  margin: auto;
+  box-shadow: 5px 5px 14px 0px #00000040;
+  border-radius: 0.8rem;
+}
+
+.Map {
+  width: 90vw;
+  margin: auto;
+}
+
+.BasketCheckOutBar {
+  width: 90vw;
+  margin: auto;
+ 
+}
+
+.ProductFooter {
+  width: 100%;
+  height: 35vh;
+}
+
+/* MOBILE VIEW STYLE */
+
+.P_responsiveNavbar1 {
+  width: 100vw;
+  height: 12vh;
+}
+
+.P_responsiveNavbar2 {
+  width: 100vw;
+  height: 12vh;
+}
+
+.P_AddressBar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.P_bannerImg {
+  width: 90vw;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.P_bannerImg > img {
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+
+
+@media screen and (max-width : 768px){
+
+.burgers {
+  width: 90vw;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.P_foodMenuBar {
+  width: 100vw;
+  /* margin-top: 2rem; */
+  overflow-x: auto;
+}
+
+.fries {
+  width: 90vw;
+  margin: auto;
+  margin-top: 2rem;
+}
+.coldDrinks {
+  width: 90vw;
+  margin: auto;
+  margin-top: 2rem;
+}
+.popuResto{
+  width: 90vw;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.P_CustomerRiviews{
+  width: 100vw;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background-color: #D9D9D9;
+  /* overflow-x: auto;  */
+}
+.P_Map{
+  width: 90vw;
+  margin-top: 5rem;
+  margin:auto
+}
+
+.P_RespoFooter{
+  width: 100vw;
+  margin-top: 10rem;
+}
+
+.BasketCheckOutBar >img{
+  position: absolute;
+  right: 3rem;
+  top: 7rem
+}
+
+
+
+}

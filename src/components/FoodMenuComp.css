@@ -1,0 +1,65 @@
+.foodMenuComp{
+width: 90%;
+height: 5.2rem;
+background: #FC8A06;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+font-size: 1.3rem;
+margin: auto    ;
+color: #FFFFFF;
+font-weight: 700;
+flex-wrap: wrap;
+
+}
+
+.fMCO{
+    height: 60%;
+    /* border: 1px solid black; */
+    width: 10%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100Px;
+    border: 1px solid #000000;
+    background: #03081F;
+
+}
+
+
+@media screen and (max-width : 768px ){
+    .foodMenuComp{
+        width: 110rem;
+        height: 5.2rem;
+        background: #FC8A06;
+        display: flex;
+        align-items: center;
+        /* gap: 2rem;    */
+        
+        justify-content: space-around;
+        font-size: 1.5rem;
+        /* margin: auto    ; */
+        color: #FFFFFF;
+        font-weight: 700;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        
+        }
+        
+        .fMCO{
+            height: 60%;
+            /* border: 1px solid black; */
+            width: 10%;
+            /* text-align: center; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100Px;
+            border: 1px solid #000000;
+            background: #03081F;
+        
+        }
+}
+
+

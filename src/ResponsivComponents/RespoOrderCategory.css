@@ -1,0 +1,76 @@
+.modrHead    {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2rem;
+  }
+  
+
+  
+  .modrCategories {
+    width: 90%;
+    margin: auto;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 2rem; */
+  }
+  
+  .modrMenu {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    
+    .modrMenu > div {
+        width: 12rem;
+        height: auto;
+        /* border: 1px solid black; */
+        border-radius: 0.75rem;
+        border: 1px solid #0000001a;
+        background: #f5f5f5;
+        /* background-color: #03081F; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    /* gap: .5rem; */
+  }
+  .modrMenu > div > img {
+    width: 100%;
+  }
+
+  
+
+  
+  .mitemType + p {
+    font-size: 0.8rem;
+    color: #fc8a06;
+  }
+
+  .Details{
+    background-color: #03081F;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom-left-radius:.7rem ;
+    border-bottom-right-radius:.7rem ;
+    
+  }
+
+  .Details >p{
+    margin-left: 1.2rem;
+}
+
+.Details :nth-child(1){
+    
+            font-weight: 700;
+            font-size: 1rem;
+            color: #FC8A06;
+  }
+
+  .Details :nth-child(2){
+        color: #f5f5f5;
+  }

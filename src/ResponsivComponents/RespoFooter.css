@@ -1,0 +1,250 @@
+.MobFooter1{
+    /* border: 2px solid black; */
+    height: 80rem;
+    width: 100%;
+    /* background: #D9D9D9; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.MobFooterT{
+    height: 92%;
+    width: 100%;
+    background: #ebe4e4;
+    display: flex;
+    /* opacity: 0.6; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.MobFooterB{
+    height: 8%;
+    width: 100%;
+    
+    background: #03081F;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MobFooterLeft{
+    width: 90%;
+    height: 35%;
+    /* border:1px solid #03081F; */
+    display: flex;
+    flex-direction: column;
+/* gap: 1rem; */
+    justify-content: space-around;
+    align-items: center;
+    /* padding-left: 6rem; */
+    
+
+}
+
+.MobFooterLeft > img{
+    width: 22rem;
+
+}
+
+.MobFooterRight{
+    width: 75%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+
+.Mob_Inp_btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.Mob_Inp_btn > button{
+    position: absolute;
+    left: 15rem;
+    width: 9rem;
+    height: 2.7rem;
+}
+
+.Mob_Inp_btn > input{
+    height: 2.7rem;
+    background: #d9d9d9;
+    border: none;
+
+}
+
+.socialMedia{
+    display: flex;
+   margin-left: 2rem;
+    width: 15rem;
+    justify-content: space-around;
+}
+
+.socialMedia > img {
+    width: 3rem;
+}
+.MobSlot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    text-align: left;
+    /* padding-left: 1rem; */
+    margin-top: 2rem;
+    /* border: 1px solid greenyellow; */
+}
+
+.MobDeals{
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+
+.MobPolicy{
+    /* margin-left: 2rem; */
+    color: #03081F;
+
+}
+.MobSlot2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 2rem;
+    /* border: 1px solid black; */
+    /* text-decoration: underline; */
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.MobSlot3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 2rem;
+    /* border: 1px solid black; */
+    /* text-decoration: underline; */
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.MobLP , .MobIL {
+    font-size: 1.2rem;
+    /* text-decoration: none ; */
+    font-weight: 700;
+}
+
+.MobSlotLeft{
+    color: #ebe4e4;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+/* @media screen and (max-width: 600px) {
+   
+      .MobFooterT{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 0 2rem 0;
+        align-items: center;
+      }
+      .MobFooterLeft{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        gap: 1rem;
+        /* width: 100%;
+        margin: auto; */
+      
+      /* .MobFooterRight{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        padding-left: 0;
+        gap: 1.5rem;
+      }
+      .MobFooterLeft{
+        margin-top: 1rem;
+      }
+      .MobSlot1{
+        margin-top: 1rem;
+        padding-left: 0;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .MobSlot2{
+        margin-top: 1rem;
+        padding-left: 0;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .MobSlot3{
+        margin-top: 1rem;
+        padding-left: 0;
+        width: auto; display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .MobFooterLeft{
+        margin-top: 1rem;
+      }
+    
+      .MobSlotLeft{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .MobSlotRight{
+        display: none;
+      }
+
+       }
+
+
+ @media screen and (max-width: 860px) {
+  .Mob_Inp_btn > button{
+    position: absolute;
+    left: 12rem;
+    width: 8rem;
+    height: 2.7rem;
+}
+
+.Mob_Inp_btn > input{
+    height: 2.7rem;
+    width: 15rem;
+    background: #d9d9d9;
+    border: none;
+
+}
+ } */ 

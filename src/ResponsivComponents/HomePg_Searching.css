@@ -1,0 +1,93 @@
+.RespoSearch{
+    width: 93vw;
+    margin: auto;
+    background: #03081F;
+    border-radius:12px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.2rem 0 3.2rem 0;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+.RespoSearch .orderFood{
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.postCode{
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+}
+
+ .OrderHead1 {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.OrderHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1px;
+}
+
+.OrderHead2{
+margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FC8A06;
+}
+
+.RespoSearchBar{
+   
+    position: relative;
+    width: 68%;
+}
+
+.srchInp{
+    height: 4.5rem;
+    width: 92%;
+    background: #FFFFFF;
+    border-radius: 120px;
+}
+
+.InpArrow{
+    position: absolute;
+    width: 5rem;
+    height: 95%;
+    border-radius: 120px;
+    background: #FC8A06;
+    top:-0rem;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 390px) {
+
+    .OrderHead1 {
+        color: #FFFFFF;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin: 0;
+    }
+    .OrderHead2{
+             margin: 0;
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #FC8A06;
+     }
+
+
+}

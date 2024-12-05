@@ -1,0 +1,92 @@
+.orderMainContainer {
+  display: flex;
+  flex-direction: column;
+  /* gap: 4rem;    */
+}
+
+
+.orderNavbar {
+  height: 20vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: auto;
+}
+
+
+.orderNav1 {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid #0000001A; */
+  background: #fafafa;
+  border-bottom-left-radius: 0.85rem;
+  border-bottom-right-radius: 0.85rem;
+}
+
+
+.orderNav2 {
+  height: 60%;
+  /* border: 1px solid yellow; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orderDetailsPG{
+  width: 90vw;
+  margin: auto;
+
+}
+
+.orderRestoList{
+  width: 90vw;
+  margin: auto  ;
+  margin-top: 2rem;
+}
+
+.orderFooter {
+  width: 100vw;
+  height: 40vh;
+  margin-top: 3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .orderNavbar {
+    display: none;
+  }
+
+  .orderFooter {
+    display: none;
+  }
+
+  .orderRestoList{
+  display: none;
+  }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

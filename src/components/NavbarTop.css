@@ -1,0 +1,62 @@
+
+
+    .nav1_1, .nav1_2,.nav1_3{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        font-size: 1rem;
+        /* justify-content: center; */
+    }
+
+    .nav1_2 > img{
+        width: 1.8rem;
+    }
+
+    .nav1_3{
+        background: #028643;
+        border-bottom-right-radius: .85rem;
+        border-bottom-left-radius: .85rem;
+        gap: 2rem;
+        height: 100%;
+        cursor: pointer;
+    
+    }
+    .basket{
+        width: 3rem;
+        margin-left: 1rem;
+    }
+    
+    .frwdBtn{
+        width: 02.5rem;
+        margin-right: 1rem;
+    }
+    .blnk{
+        width:5.5rem;
+        border-left: 1px solid #FFFFFF;
+        border-right :1px solid #FFFFFF ;    
+        height: 100%;
+        opacity: 30%;
+    }
+    
+    .nav1_3 > p{
+        color: #FFFFFF;
+    
+    }
+    
+    .nav1_1 > p > span{
+       color: #FC8A06;
+       font-weight:600
+    }
+    .nav1_1{
+        padding: 1rem;
+        gap: .5rem;
+    }
+    .nav1_2{
+        /* padding: 1rem; */
+        gap: .5rem;
+    }
+    .nav1_2 > span{
+        color: #FC8A06;
+       font-weight:600
+    }
+    

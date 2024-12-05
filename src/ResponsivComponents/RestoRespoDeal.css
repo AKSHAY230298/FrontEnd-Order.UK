@@ -1,0 +1,54 @@
+.MfoodType {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  height: 100%;
+  gap: 3rem;
+}
+.MdealBar {
+  width: 100%;
+  margin-top:2rem ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7vh;
+  /* border: 1px solid black; */
+  font-weight: 500;
+}
+
+.MPFF {
+  height: 90%;
+  border: 1px solid #fc8a06;
+  border-radius: 100px;
+  width: 15rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #fc8a06;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.MdealBar > P {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.MdealResto {
+  width: 90vw;
+  margin: auto;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Mresto {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  gap: 2rem;
+}
+
+.Mresto > img {
+  width: 20rem;
+}

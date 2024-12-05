@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.respoNavbar2{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.respoNavbar2_1{
+  width:50% ;
+  background: #FC8A06;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+
+}
+
+.navImg1{
+  width: 30%;
+  
+}
+
+.respoNavbar2_1 img{
+  width: 80%;
+  margin-left: 1.5rem;
+}
+.respoNavbar2_1 span{
+  width: 50%;
+  /* height: 100%; */
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  
+}
+
+.basket_png{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.respoNavbar2_2{
+  width:50% ;
+  background: #028643;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.basket_png img {
+  width: 65%;
+}
+
+.cartText{
+  width: 60%;
+  font-size: 1rem;
+}
+
+.cartText span {
+  margin: 0;
+  font-size: 1.3rem;
+  color:#FFFFFF;
+  font-weight: 600;
+}
+
+
+
+@media only screen and (min-width: 450px) {
+  .basket_png img {
+      width: 50%;
+  }
+  
+.cartText span {
+  margin: 0;
+  font-size: 1.5rem;
+  color:#FFFFFF;
+  font-weight: 600;
+}
+.respoNavbar2_1 span{
+  width: 50%;
+  /* height: 100%; */
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+}
+
+
+@media only screen and (min-width: 600px) {
+  .basket_png img {
+      width: 40%;
+  }
+  
+.cartText span {
+  margin: 0;
+  font-size: 1.5rem;
+  color:#FFFFFF;
+  font-weight: 600;
+}
+.respoNavbar2_1 span{
+  width: 50%;
+  /* height: 100%; */
+  margin: 0;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+.respoNavbar2_1 img{
+  width: 60%;
+  margin-left: 0.5rem;
+}
+
+}
