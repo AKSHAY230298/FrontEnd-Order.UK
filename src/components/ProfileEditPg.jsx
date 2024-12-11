@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../components/ProfileEditPg.css";
 import { useNavigate } from "react-router-dom";
-import {BASE_URL} from "../services/helper"
-
+import { BASE_URL } from "../services/helper";
 
 const ProfileEditPg = ({ setActiveEditProfile }) => {
   const navigate = useNavigate();
@@ -19,16 +18,13 @@ const ProfileEditPg = ({ setActiveEditProfile }) => {
       email: localStorage.getItem("email"),
     };
 
-    const response = await fetch(
-      `${BASE_URL}/api/auth/getProfileInfo`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(signInData),
-      }
-    );
+    const response = await fetch(`${BASE_URL}/api/auth/getProfileInfo`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(signInData),
+    });
 
     if (response.ok) {
       let gettedData = await response.json();
@@ -64,27 +60,21 @@ const ProfileEditPg = ({ setActiveEditProfile }) => {
 
     localStorage.setItem("email", inputInfoUpdate.email);
 
-    const response = await fetch(
-      `${BASE_URL}/api/auth/editProfileInfo`,
-      {
-        method: "PUT",
+    const response = await fetch(`${BASE_URL}/api/auth/editProfileInfo`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(inputInfoUpdate),
+    });
+    if (response.ok) {
+      const response = await fetch(`${BASE_URL}/api/auth/getProfileInfo`, {
+        method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(inputInfoUpdate),
-      }
-    );
-    if (response.ok) {
-      const response = await fetch(
-        `${BASE_URL}/api/auth/getProfileInfo`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(signInData),
-        }
-      );
+        body: JSON.stringify(signInData),
+      });
 
       if (response.ok) {
         let gettedData = await response.json();
@@ -97,12 +87,9 @@ const ProfileEditPg = ({ setActiveEditProfile }) => {
   const [getedCardData, setGetedCardData] = useState([]);
 
   const getCardsData = async () => {
-    const response = await fetch(
-      `${BASE_URL}/api/auth/getCardsData`,
-      {
-        method: "GET",
-      }
-    );
+    const response = await fetch(`${BASE_URL}/api/auth/getCardsData`, {
+      method: "GET",
+    });
     if (response.ok) {
       const getedCardInfo = await response.json();
       setGetedCardData(getedCardInfo.msg);
@@ -110,13 +97,7 @@ const ProfileEditPg = ({ setActiveEditProfile }) => {
     }
   };
 
-
-// edit card button functionality
-
-
-
-
-
+  // edit card button functionality
 
   // console.log(inputInfoUpdate);
 
